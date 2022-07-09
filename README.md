@@ -53,7 +53,7 @@ If you want a complete mobile robot kit you can order one here [Avoidance Tracki
 
 
 ## **Cell Phone RF detector**
-This detector is used to capture FR emitted from a cell phone when in active mode. Here, you are required to design a RF detector, to simplify, open the proteus file named Cell _**phone_RF_Detector.pdsprj**_ **in cell_phone_rf_detector_circuits folder**. There is schematic diagram, PCB layout and 3D View. From there you can print and solder your own RF detector circuit.
+This detector is used to capture FR emitted from a cell phone when in active mode. Here, you are required to design a RF detector, to simplify, open the proteus file named Cell _**phone_RF_Detector.pdsprj**_ . There is schematic diagram, PCB layout and 3D View. From there you can print and solder your own RF detector circuit.
 The range of detection is based on the commponents used and the strenght of the siginal from a targeted cell phone. There are lot of cell phone RF detectors already discussed online so, you can build tour own circuit.
 
 ## **Metal Detector Senosr**
