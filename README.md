@@ -19,7 +19,7 @@ This project was simulated in Proteus Proffessional 8.13 and then implemented us
 9. LED (1)
 10. Resistirs: 1K (3), 220R (1)
 11. Switch (1)
-12. RF detector (1) (Refer to the circuit)
+12. RF detector (1) (Refer to the cell_phone_rf_detector_circuit)
 13. Metal detector sensor (1)
 14. 3.7V 18650 rechargeable li-ion Battery/relevant battery (3)
 
@@ -27,7 +27,7 @@ This project was simulated in Proteus Proffessional 8.13 and then implemented us
 1. Arduino IDE
 2. Proteus Professional 8.13
 
-## **SIMULATION IN PROTEUS SOFTWARE**
+## **Simulation in Proteus Software**
 Before doing simualtion, perform the following steps/procedures
 1. Clone https://github.com/Myjofe/Cell-Phone-Detector-Robot-In-Examination-Hall
 2. Install Proteus (if you don't have) in your Laptop/Desktop
@@ -41,9 +41,9 @@ Before doing simualtion, perform the following steps/procedures
 10. Click the play button to simulate the project.
 
 
-## **ACTUAL IMPLEMENTATION**
-For actual implementation, what you need to to set / wire the components as shown in schematic diagram, then uplad the codes to the arduino.
-The designing of your robot it depends on you, you can change the parameters as you can in order to archieve your gaol. The schematic diagram is shown below.
+## **Actual Implimentation**
+For actual implementation, what you need to to set / wire the components as shown in schematic diagram, then upload the codes to the arduino.
+The designing and appearence of your robot will depend on you, you can change the parameters as you wish in order to archieve your gaol. The schematic diagram of whole system is shown below.
 
 
   ![image](https://user-images.githubusercontent.com/65401201/177836704-58009465-ce7b-4154-9a26-bde97633b594.png)
