@@ -32,17 +32,17 @@ Before doing simualtion, perform the following steps/procedures
 1. Clone https://github.com/Myjofe/Cell-Phone-Detector-Robot-In-Examination-Hall
 2. Install Proteus (if you don't have) in your Laptop/Desktop
 3. Add arduino, ir sensor, gsm libraries in Proteus software. For more information and libraries please visit [theengineeringprojects.com](https://www.theengineeringprojects.com/2015/12/arduino-library-proteus-simulation.html)
-4. Open cell phone detector_arduino_uno.pdsprj Proteus file.
+4. Open _cell_phone_detector_arduino_uno.pdsprj Proteus file._
 5. Install Arduino from [Arduino](https://www.arduino.cc/en/software) (if you don't have) 
 6. Add LiquidCrystal_I2C library i Arduino IDE from here [Arduino-LiquidCrystal-I2C-library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library) by navigating to the Sketch -> Include Libray -> Add. ZIP.File in Arduino IDE.
-7. Open the cell_phone_detecector_robot_in_examination_hall.ino
+7. Open the _cell_phone_detecector_robot_in_examination_hall.ino_
 8. Compile the program and then coppy its path. For more information visit [How to upload an arduino code in proteus software](https://www.youtube.com/watch?v=0ciMTODrHZQ&ab_channel=Mechatronics)
 9. Go to the proteus, in your sketch. Double click the arduino and paste the pass you copied in Program File location and click OK
 10. Click the play button to simulate the project.
 
 
 ## **Actual Implimentation**
-For actual implementation, what you need to to set / wire the components as shown in schematic diagram, then upload the codes to the arduino.
+For actual implementation, what you are needed is to set / wire the components as shown in schematic diagram, then upload the codes to the arduino.
 The designing and appearence of your robot will depend on you, you can change the parameters as you wish in order to archieve your gaol. The schematic diagram of whole system is shown below.
 
 ![cell_phone_detector_robot_circuit](https://user-images.githubusercontent.com/65401201/178110484-c3924a64-6541-4ed1-8ac0-84edffa9592b.JPG)
@@ -50,3 +50,13 @@ The designing and appearence of your robot will depend on you, you can change th
  
  
 If you want a complete mobile robot kit you can order one here [Avoidance Tracking Motor Smart Robot Car Chassis Kit Speed ​​Encoder Battery Box 2WD Ultrasonic Module for Arduino kit](https://es.aliexpress.com/item/32541422454.html?spm=a2g0o.productlist.0.0.74c96cd6XMojNG&algo_pvid=0a2357eb-d4d8-4953-8677-45213ad20f7e&algo_exp_id=0a2357eb-d4d8-4953-8677-45213ad20f7e-8&pdp_ext_f=%7B%22sku_id%22%3A%2210000000912275308%22%7D&pdp_npi=2%40dis%21TZS%21%2147179.14%21%21%21%21%21%402101e9d416572161632094191eab6f%2110000000912275308%21sea)
+
+
+## **Cell Phone RF detector**
+This detector is used to capture FR emitted from a cell phone when in active mode. Here, you are required to design a RF detector, to simplify, open the proteus file named Cell _**phone_RF_Detector.pdsprj**_ **in cell_phone_rf_detector_circuits folder**. There is schematic diagram, PCB layout and 3D View. From there you can print and solder your own RF detector circuit.
+The range of detection is based on the commponents used and the strenght of the siginal from a targeted cell phone. There are lot of cell phone RF detectors already discussed online so, you can build tour own circuit.
+
+## **Metal Detector Senosr**
+The use of this part is to detect a cell phone which is kept in inactive or airplane mode. There are lot of metal detector with different applications. You can search ametal detector online and choose one which will be easier and fulfil your needs.
+You can replace metal detector with another sensor which you see can be the best to detect a cell phone that is not in active mode. This is the metal detector circuit that I choose, it has high snsitivity and will provide you better results to detect a cell phone which is not in active mode.
+[DIY Metal Detector | Russian metal detector circuit | Pirate](https://www.youtube.com/watch?v=7QJrI-9CCIw&ab_channel=DHTProject)
