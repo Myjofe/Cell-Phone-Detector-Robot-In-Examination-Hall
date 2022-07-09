@@ -45,7 +45,267 @@ Before doing simualtion, perform the following steps/procedures
 For actual implementation, what you need to to set / wire the components as shown in schematic diagram, then upload the codes to the arduino.
 The designing and appearence of your robot will depend on you, you can change the parameters as you wish in order to archieve your gaol. The schematic diagram of whole system is shown below.
 
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806">
+ <boundingRects>
+  <boundingRect rect="0 0 0 0" name="PCB View"/>
+  <boundingRect rect="0 0 0 0" name="Schematic View"/>
+  <boundingRect rect="-50.0909 27.6057 265.465 189" name="Breadboard View"/>
+ </boundingRects>
+ <instances>
+  <instance modelIndex="5786" path="D:/Programs/fritzing.0.9.3b.32.pc/fritzing.0.9.3b.32.pc/fritzing-parts/core/arduino_Uno_Rev3(fix).fzp" moduleIdRef="arduino_Uno_Rev3(fix)">
+   <title>Part1</title>
+   <views>
+    <breadboardView layer="breadboardbreadboard">
+     <geometry x="-50.0909" y="27.6057" z="1.50098"/>
+     <connectors>
+      <connector layer="breadboardbreadboard" connectorId="connector61">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector62">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector63">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector54">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector1">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector4">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector65">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector51">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector68">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector64">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector88">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector67">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector52">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector90">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector66">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector0">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector5">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="breadboardbreadboard" connectorId="connector87">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+     </connectors>
+    </breadboardView>
+    <pcbView layer="copper0">
+     <geometry x="140.171" y="0" z="5.50091"/>
+     <titleGeometry xOffset="243.24" fontSize="5" x="383.411" visible="true" y="-7" textColor="#000000" z="13" yOffset="-7">
+      <displayKey key=""/>
+     </titleGeometry>
+     <connectors>
+      <connector layer="copper0" connectorId="connector61">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector62">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector63">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector54">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector1">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector4">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector65">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector51">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector68">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector64">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector88">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector67">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector52">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector90">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector66">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector0">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector5">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="copper0" connectorId="connector87">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+     </connectors>
+    </pcbView>
+    <schematicView layer="schematic">
+     <geometry x="0" y="-8.9999" z="2.5009"/>
+     <titleGeometry xOffset="135" fontSize="5" x="135" visible="true" y="-15.9999" textColor="#000000" z="7.00001" yOffset="-7">
+      <displayKey key=""/>
+      <displayKey key="part number"/>
+     </titleGeometry>
+     <connectors>
+      <connector layer="schematic" connectorId="connector61">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector62">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector63">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector54">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector1">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector4">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector65">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector51">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector68">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector64">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector88">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector67">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector52">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector90">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector59">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector60">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector66">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector0">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector5">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+      <connector layer="schematic" connectorId="connector87">
+       <geometry x="0" y="0"/>
+       <connects/>
+      </connector>
+     </connectors>
+    </schematicView>
+   </views>
+  </instance>
+ </instances>
+</module>
 
-  ![image](https://user-images.githubusercontent.com/65401201/177836704-58009465-ce7b-4154-9a26-bde97633b594.png)
-
+ 
+ 
 If you want a complete mobile robot kit you can order one here [Avoidance Tracking Motor Smart Robot Car Chassis Kit Speed ​​Encoder Battery Box 2WD Ultrasonic Module for Arduino kit](https://es.aliexpress.com/item/32541422454.html?spm=a2g0o.productlist.0.0.74c96cd6XMojNG&algo_pvid=0a2357eb-d4d8-4953-8677-45213ad20f7e&algo_exp_id=0a2357eb-d4d8-4953-8677-45213ad20f7e-8&pdp_ext_f=%7B%22sku_id%22%3A%2210000000912275308%22%7D&pdp_npi=2%40dis%21TZS%21%2147179.14%21%21%21%21%21%402101e9d416572161632094191eab6f%2110000000912275308%21sea)
