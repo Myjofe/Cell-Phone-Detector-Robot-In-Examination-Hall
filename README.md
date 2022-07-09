@@ -19,9 +19,9 @@ This project was simulated in Proteus Proffessional 8.13 and then implemented us
 9. LED (1)
 10. Resistirs: 1K (3), 220R (1)
 11. Switch (1)
-12. RF detector (1) 
+12. RF detector (1) (Refer to the circuit)
 13. Metal detector sensor (1)
-14. 3.7V 18650 Charger Li-ion Battery/relevant battery (3)
+14. 3.7V 18650 rechargeable li-ion Battery/relevant battery (3)
 
 **PART TWO: Software**
 1. Arduino IDE
@@ -29,15 +29,17 @@ This project was simulated in Proteus Proffessional 8.13 and then implemented us
 
 ## **SIMULATION IN PROTEUS SOFTWARE**
 Before doing simualtion, perform the following steps/procedures
-1. Install Proteus (if you don't have) in your Laptop/Desktop
-2. Add arduino, ir sensor, gsm library in Proteus software. For more information and libraries please visit [theengineeringprojects.com](https://www.theengineeringprojects.com/2015/12/arduino-library-proteus-simulation.html)
-3. Draw schematic circuit as shown in below or you can open the proteus file directly from above.
-4. Install Arduino (if you don't have) and istal LiquidCrystal_I2C from here [Arduino-LiquidCrystal-I2C-library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library) by navigating to the Sketch -> Include Libray -> Add. ZIP.File in Arduino IDE.
-5. Open the cell_phone_detecector_robot_in_examination_hall.ino
-6. Compile the program and then coppy its path. For more information visit [How to upload an arduino code in proteus software](https://www.youtube.com/watch?v=0ciMTODrHZQ&ab_channel=Mechatronics)
-7. Go to the proteus, after drawing your sketch. Double click the arduino and paste the pass you copied in Program File location and clock OK
-8. Click the paly button to see how simulation is going.
-9. Finally you made it.
+1. Clone https://github.com/Myjofe/Cell-Phone-Detector-Robot-In-Examination-Hall
+2. Install Proteus (if you don't have) in your Laptop/Desktop
+3. Add arduino, ir sensor, gsm libraries in Proteus software. For more information and libraries please visit [theengineeringprojects.com](https://www.theengineeringprojects.com/2015/12/arduino-library-proteus-simulation.html)
+4. Open cell phone detector_arduino_uno.pdsprj Proteus file.
+5. Install Arduino from [Arduino](https://www.arduino.cc/en/software) (if you don't have) 
+6. Add LiquidCrystal_I2C library i Arduino IDE from here [Arduino-LiquidCrystal-I2C-library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library) by navigating to the Sketch -> Include Libray -> Add. ZIP.File in Arduino IDE.
+7. Open the cell_phone_detecector_robot_in_examination_hall.ino
+8. Compile the program and then coppy its path. For more information visit [How to upload an arduino code in proteus software](https://www.youtube.com/watch?v=0ciMTODrHZQ&ab_channel=Mechatronics)
+9. Go to the proteus, in your sketch. Double click the arduino and paste the pass you copied in Program File location and click OK
+10. Click the play button to simulate the project.
+
 
 ## **ACTUAL IMPLEMENTATION**
 For actual implementation, what you need to to set / wire the components as shown in schematic diagram, then uplad the codes to the arduino.
