@@ -61,5 +61,5 @@ The use of this part is to detect a cell phone which is kept in inactive or airp
 You can replace metal detector with another sensor which you see can be the best to detect a cell phone that is not in active mode. This is the metal detector circuit that I choose, it has high snsitivity and will provide you better results to detect a cell phone which is not in active mode.
 [DIY Metal Detector | Russian metal detector circuit | Pirate](https://www.youtube.com/watch?v=7QJrI-9CCIw&ab_channel=DHTProject)
 
-##**NOTE**
+**NOTE**
 In order to read the inputs from these detectors, you need to interface the detectors with the microcontroller as shown in the schematic circuit above by reading their outputs.
