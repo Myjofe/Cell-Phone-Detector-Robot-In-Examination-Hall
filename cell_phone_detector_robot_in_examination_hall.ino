@@ -514,6 +514,5 @@ void sendSMS(){
   Serial.println("PHONE DETECTED");
   delay(200);
   Serial.println((char)26); //ASII code for CTL + Z
-  //digitalWrite(led, LOW);
   delay(100);
 }
