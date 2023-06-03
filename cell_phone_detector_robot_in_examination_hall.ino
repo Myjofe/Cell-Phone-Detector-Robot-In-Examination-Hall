@@ -509,7 +509,7 @@ void sendSMS(){
   lcd.setCursor(0, 0);
   lcd.print("   SMS SENT TO    ");
   lcd.setCursor(0, 1);
-  lcd.print("  +255678985227   ");
+  lcd.print("  xxxxxxxxxxxx   ");
   
   Serial.println("PHONE DETECTED");
   delay(200);
