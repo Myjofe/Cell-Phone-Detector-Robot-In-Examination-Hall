@@ -43,7 +43,7 @@ Before doing simualtion, perform the following steps/procedures
 
 ## **Actual Implimentation**
 For actual implementation, what you are needed is to set / wire the components as shown in schematic diagram, then upload the codes to the arduino.
-The designing and appearence of your robot will depend on you, you can change the parameters as you wish in order to archieve your gaol. The schematic diagram of whole system is shown below.
+The designing and appearence of your robot will depend on you, you can change the parameters as you wish in order to archieve your goal. The schematic diagram of whole system is shown below.
 
 ![cell_phone_detector_robot_circuit](https://user-images.githubusercontent.com/65401201/178110484-c3924a64-6541-4ed1-8ac0-84edffa9592b.JPG)
 
